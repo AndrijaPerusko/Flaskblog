@@ -28,4 +28,7 @@ def create_app(config_class=Config):
     from flaskblog.posts import bp as posts_bp
     app.register_blueprint(posts_bp)
 
+    from flaskblog.errors import bp as errors_bp
+    app.register_blueprint(errors_bp)
+
     return app
