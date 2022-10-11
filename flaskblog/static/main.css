@@ -78,3 +78,26 @@ body {
   .account-heading {
     font-size: 2.5rem;
   }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #c5c4c4;
+    color: black;
+  }
+
+  .column_about {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .container_about {
+    padding: 0 16px;
+  }

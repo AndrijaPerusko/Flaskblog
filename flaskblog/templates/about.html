@@ -1,5 +1,36 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <h1>About Page</h1>
+<div class="about-section">
+    <h1>About Us</h1>
+    <p><b>We are the team responsible for this Blog.</b></p>
+    <p><strong>If you want to contact us or ask some questions about this application, please use e-mail address in the section bellow.</strong></p>
+</div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row_about">
+    <div class="column_about">
+        <div class="card">
+            <img src="/static/owners/CEO.jpg" alt="" style="width:100%">
+            <div class="container_about">
+                <h2>Andrija Perusko</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Charismatic owner and founder of this blog.</p>
+                <p>andrija.perusko@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row_about">
+    <div class="column_about">
+        <div class="card">
+            <img src="/static/owners/Co-founder.jpg" alt="" style="width:100%">
+            <div class="container_about">
+                <h2>Neo</h2>
+                <p class="title">Co-founder and PR</p>
+                <p>Co-founder of the Flaskblog and handsome husky.</p>
+                <p>neothehuskydoggo@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock content %}
